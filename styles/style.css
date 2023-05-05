@@ -2,7 +2,8 @@
 
 body {
     display: grid;
-    height: 800px;
+
+    min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(30, 38%, 92%);
     place-content: center;
@@ -11,25 +12,25 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 600px;
+    max-width: 600px;
     height: 450px;
-    border-radius: 10px;
+    border-radius: .625rem;
     background-color: hsl(0, 0%, 100%);
 
 }
 
 .info {
-    /* display: grid; */
-    margin-left: 32px;
-    margin-right: 32px;
-    /* gap: 16px; */
+    /* padding: 32px; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+
 }
 
 .perfume {
     color: hsl(228, 12%, 48%);
-    font-size: 12px;
-    letter-spacing: 6px;
-    margin-top: 32px;
+    font-size: .75rem;
+    letter-spacing: .375rem;
+    margin-top: 2rem;
 }
 
 h1 {
@@ -40,35 +41,35 @@ h1 {
 img {
     width: 300px;
     height: 450px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: .625rem;
+    border-top-left-radius: .625rem;
 }
 
 .about {
     color: hsl(228, 12%, 48%);
-    font-size: 12.5px;
-    letter-spacing: 1px;
-    /* line-height: 20px; */
+    font-size: .78rem;
+    letter-spacing: .063rem;
+
     line-height: 1.8;
-    /* font-weight: 500; */
+
 }
 
 .costs {
     display: flex;
-    margin-top: 32px;
+    margin-top: 2rem;
     align-items: center;
 }
 
 .price {
     font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .regular-price {
-    padding-left: 20px;
+    padding-left: 1.25rem;
     color: hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-size: .875rem;
     text-decoration: line-through;
 }
 
@@ -79,14 +80,14 @@ button {
     color: white;
     width: 100%;
     border: none;
-    padding: 14px 14px;
-    margin-top: 24px;
+    padding: .875rem .875rem;
+    margin-top: 1.5rem;
 
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 
 span {
-    padding-left: 12px;
+    padding-left: .75rem;
 }
 
 button:hover {
@@ -104,28 +105,23 @@ button:hover {
     img {
         width: 375px;
         height: 240px;
-        border-top-right-radius: 10px;
+        border-top-right-radius: .625rem;
         border-bottom-left-radius: 0;
     }
 
     .perfume {
-        margin-top: 16px;
+        margin-top: 1rem;
     }
 
     .costs {
-        margin-top: 12px;
+        margin-top: .75rem;
     }
 
     h1 {
-        margin-top: 12px;
+        margin-top: .75rem;
     }
 
     button {
-        margin-top: 12px;
+        margin-top: .75rem;
     }
 }
-
-/* .cart {
-    width: 15px;
-    height: 16px;
-} */

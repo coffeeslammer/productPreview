@@ -1,8 +1,9 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+## Edit
 
-## Overview
+- I took the advice and turned: font, margin, and padding to rem's. I switch my div .container to main and I switched my width and height. In body to min-height: 100vh
+  and turned width to max-width in .container.
 
 ### The challenge
 
